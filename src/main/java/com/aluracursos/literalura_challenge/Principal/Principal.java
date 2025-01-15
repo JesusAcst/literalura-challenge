@@ -39,10 +39,10 @@ public class Principal {
             try {
                 System.out.println(menu);
                 opcion = scanner.nextInt();
-                scanner.nextLine(); // Limpiar el buffer de entrada
+                scanner.nextLine();
             } catch (InputMismatchException e) {
                 System.out.println("|--------  Ingrese un número válido.  --------|");
-                scanner.nextLine(); // Limpiar el buffer de entrada
+                scanner.nextLine();
                 continue;
             }
             switch (opcion) {

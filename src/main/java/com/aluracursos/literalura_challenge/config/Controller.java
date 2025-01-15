@@ -73,7 +73,7 @@ public class Controller {
         if (libros.isEmpty()) {
             System.out.println("Libro no encontrado.");
         } else {
-            libros.forEach(System.out::println); // Imprime cada libro encontrado
+            libros.forEach(System.out::println);
         }
     }
 
